@@ -5,7 +5,9 @@ if status is-interactive
 
 	set PATH $PATH ~/.cargo/bin
 
-	if status is-interactive and not set -q TMUX and not set -q SSH_CONNECTION
+	if status is-interactive
+		and not set -q TMUX
+		and not set -q SSH_CONNECTION
 		exec tmux new-session -A -s main
 	end
 end
