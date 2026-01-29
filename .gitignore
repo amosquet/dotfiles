@@ -1,2 +1,9 @@
 # ignore ssh/.ssh/ssh_usernames
 ssh/.ssh/ssh_usernames
+
+# ingore device-specific fish files
+fish/.config/fish/completions/
+fish/.config/fish/conf.d
+fish/.config/fish/functions/
+fish/.config/fish/fish_variables
+
