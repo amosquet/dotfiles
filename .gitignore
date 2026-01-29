@@ -9,3 +9,8 @@ fish/.config/fish/conf.d
 fish/.config/fish/functions/
 fish/.config/fish/fish_variables
 
+# ignore IDE config files
+zed/.config/zed/conversions/
+zed/.config/zed/prompts/
+
+
