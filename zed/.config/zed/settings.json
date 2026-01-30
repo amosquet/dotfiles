@@ -37,15 +37,4 @@
     "light": "Ayu Light",
     "dark": "Tokyo Night",
   },
-  "auto_install_extensions": {
-    "Tokyo Night Themes": true,
-    "Astro": true,
-    "Rainbow CSV": true,
-    "CSV": true,
-    "verilog": true,
-    "Git Firefly": true,
-    "Ruby": true,
-    "Make": true,
-    "LaTeX": true,
-  },
 }
