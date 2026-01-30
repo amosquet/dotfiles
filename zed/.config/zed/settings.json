@@ -7,7 +7,21 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "disable_ai": true,
+  "agent": {
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gemini-3-pro-preview"
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "agent_servers": {
+    "github-copilot": {
+      "type": "registry"
+    }
+  },
+  "disable_ai": false,
   "calls": {
     "share_on_join": true,
     "mute_on_join": true,

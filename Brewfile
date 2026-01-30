@@ -1,49 +1,95 @@
 tap "imshuhao/kdeconnect"
 tap "oven-sh/bun"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# Emacs dependency management
 brew "cask"
+# Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
+# User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Open-source video transcoder available for Linux, Mac, and Windows
 brew "handbrake"
+# Mac App Store command-line interface
 brew "mas"
+# Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Package for scientific computing with Python
 brew "numpy"
+# Create, run, and share large language models (LLMs)
 brew "ollama", restart_service: :changed
+# Python library for creating static, animated, and interactive visualizations
 brew "python-matplotlib"
+# Software for mathematics, science, and engineering
 brew "scipy"
+# 7-Zip is a file archiver with a high compression ratio
 brew "sevenzip"
+# Prints a steam locomotive if you type sl instead of ls
 brew "sl"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+# Open source continuous file synchronization application
 brew "syncthing", restart_service: :changed
+# Terminal multiplexer
 brew "tmux"
+# Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
+# Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
+# Privacy-focused app for managing your finances
 cask "actual"
+# Universal chat app powered by Matrix
 cask "beeper"
+# Desktop password and login vault
 cask "bitwarden"
+# E-books management software
 cask "calibre"
+# Server and cloud storage browser
 cask "cyberduck"
+# Voice and text chat software
 cask "discord"
+# Web browser
 cask "firefox"
+# Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Desktop client for GitHub repositories
 cask "github"
+# Client for the Google Drive storage service
 cask "google-drive"
+# Enabling communication between all your devices
 cask "imshuhao/kdeconnect/kdeconnect"
+# Free and Open Source Video Editor
 cask "kdenlive"
+# Electronics design automation suite
 cask "kicad"
+# Free cross-platform office suite, fresh version
 cask "libreoffice"
+# VPN client
 cask "mullvad-vpn"
+# Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Home media player
 cask "plex"
+# Music player focusing on visuals
 cask "plexamp"
+# Minecraft launcher
 cask "prismlauncher"
+# Control your tools with a few keystrokes
 cask "raycast"
+# Video game digital distribution service
 cask "steam"
+# Customizable email client
 cask "thunderbird"
+# Open-source code editor
 cask "visual-studio-code"
+# Multimedia player
 cask "vlc"
+# Multiplayer code editor
+cask "zed"
 mas "Apple Configurator", id: 1037126344
 mas "LINE", id: 539883307
 mas "Speedtest", id: 1153157709
@@ -101,3 +147,4 @@ vscode "vscjava.vscode-java-pack"
 vscode "vscjava.vscode-java-test"
 vscode "vscjava.vscode-maven"
 vscode "vscodevim.vim"
+cargo "r-matrix"
