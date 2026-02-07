@@ -11,15 +11,15 @@
     "default_profile": "ask",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "gemini-3-pro-preview"
+      "model": "gemini-3-pro-preview",
     },
     "favorite_models": [],
-    "model_parameters": []
+    "model_parameters": [],
   },
   "agent_servers": {
     "github-copilot": {
-      "type": "registry"
-    }
+      "type": "registry",
+    },
   },
   "disable_ai": false,
   "calls": {
@@ -50,5 +50,17 @@
     "mode": "system",
     "light": "Ayu Light",
     "dark": "Tokyo Night",
+  },
+  "auto_install_extensions": {
+    "tokyo-night": true,
+    "astro": true,
+    "csv": true,
+    "rainbow-csv": true,
+    "verilog": true,
+    "latex": true,
+    "ruby": true,
+    "git-firefly": true,
+    "html": true,
+    "fish": true,
   },
 }
