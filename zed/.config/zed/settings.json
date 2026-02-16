@@ -7,6 +7,23 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "ssh_connections": [
+    {
+      "host": "ece337L",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/ecegridfs/a/337mg257/ece337"
+          ]
+        }
+      ]
+    }
+  ],
+  "edit_predictions": {
+    "mode": "subtle",
+    "provider": "copilot"
+  },
   "agent": {
     "default_profile": "ask",
     "default_model": {
