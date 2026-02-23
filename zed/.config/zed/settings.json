@@ -38,7 +38,7 @@
       "type": "registry",
     },
   },
-  "disable_ai": false,
+  "disable_ai": true,
   "calls": {
     "share_on_join": true,
     "mute_on_join": true,
