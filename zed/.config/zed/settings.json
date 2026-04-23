@@ -16,6 +16,32 @@
           "paths": [
             "/home/ecegridfs/a/337mg257/ece337"
           ]
+        },
+        {
+          "paths": [
+            "/home/ecegridfs/a/337mg257/ece337/./"
+          ]
+        },
+        {
+          "paths": [
+            "/home/ecegridfs/a/337mg257/ece337/ECE337-CDL-Systolic-Array"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "ece337R",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/ecegridfs/a/337mg257/ece337"
+          ]
+        },
+        {
+          "paths": [
+            "/home/ecegridfs/a/337mg257/ece337/ECE337-CDL-Systolic-Array/./"
+          ]
         }
       ]
     }
