@@ -7,7 +7,37 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "format_on_save": "off",
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "format_on_save": "on",
+  "languages": {
+    "C": {
+      "formatter": {
+        "external": {
+          "command": "clang-format",
+          "arguments": ["--style={BasedOnStyle: LLVM, SpaceBeforeParens: Never}"]
+        }
+      }
+    },
+    "C++": {
+      "formatter": {
+        "external": {
+          "command": "clang-format",
+          "arguments": ["--style={BasedOnStyle: LLVM, SpaceBeforeParens: Never}"]
+        }
+      }
+    }
+  },
   "ssh_connections": [
     {
       "host": "ece337L",
@@ -52,6 +82,7 @@
     "provider": "copilot"
   },
   "agent": {
+    "dock": "right",
     "default_profile": "ask",
     "default_model": {
       "provider": "copilot_chat",
@@ -77,9 +108,9 @@
     "git_status": true,
   },
   "title_bar": {
+    "show_branch_status_icon": true,
     "show_sign_in": false,
     "show_menus": false,
-    "show_branch_icon": true,
   },
   "telemetry": {
     "diagnostics": false,
